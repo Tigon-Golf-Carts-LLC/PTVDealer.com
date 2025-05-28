@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PTV Dealer - Personal Transportation Vehicle Dealers</title>
+    <!-- Page Description -->
+    <meta name="description" content="Find authorized Personal Transportation Vehicle (PTV) dealers nationwide. Connect with PTV specialists for eco-friendly, street-legal electric vehicles.">
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://msvdealer.com/contact.html">
+    <!-- Meta Robots -->
+    <meta name="robots" content="index, follow">
+    <!-- Meta Keywords -->
+    <meta name="keywords" content="PTV, Personal Transportation Vehicle, PTV dealer, electric vehicle, street legal golf cart">
+    <!-- Open Graph Meta -->
+    <meta property="og:title" content="Contact Us | PTVDealer.com">
+    <meta property="og:description" content="Contact PTVDealer.com for information about Medium Speed Vehicle dealers nationwide. Get in touch with our team of PTV specialists.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://msvdealer.com/contact.html">
+    <meta property="og:image" content="https://msvdealer.com/images/msv-logo.png">
+    <!-- Twitter Card Meta -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Contact Us | PTVDealer.com">
+    <meta name="twitter:description" content="Contact PTVDealer.com for information about Medium Speed Vehicle dealers nationwide. Get in touch with our team of PTV specialists.">
+    <meta name="twitter:image" content="https://msvdealer.com/images/msv-logo.png">
+    <!-- Favicon -->
+    <link rel="icon" href="images/msv-logo.png" type="image/png">
+    <!-- JSON-LD Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ContactPage",
+      "name": "Contact Us | PTVDealer.com",
+      "description": "Contact PTVDealer.com for information about Medium Speed Vehicle dealers nationwide. Get in touch with our team of PTV specialists.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "PTVDealer.com",
+        "logo": "https://msvdealer.com/images/msv-logo.png"
+      },
+      "url": "https://msvdealer.com/contact.html"
+    }
+    </script>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        /* Additional styles for the contact form */
+        .contact-form {
+            background-color: var(--dark-card);
+            padding: 2rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+        }
+        
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+        }
+        
+        .form-control {
+            width: 100%;
+            padding: 0.75rem;
+            border-radius: 4px;
+            border: 1px solid var(--border-color);
+            background-color: var(--dark-surface);
+            color: var(--text-primary);
+            font-family: inherit;
+            font-size: 1rem;
+        }
+        
+        textarea.form-control {
+            min-height: 150px;
+            resize: vertical;
+        }
+        
+        .form-control:focus {
+            outline: none;
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 2px rgba(0, 150, 214, 0.2);
+        }
+        
+        .submit-btn {
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 4px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        
+        .submit-btn:hover {
+            background-color: var(--primary-dark);
+        }
+        
+        .contact-info {
+            background-color: var(--dark-card);
+            padding: 2rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+        }
+        
+        .contact-info h3 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+        
+        .contact-info p {
+            margin-bottom: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>PTVDealer.com</h1>
+            <p>Your Source for Medium Speed Vehicle Dealers Nationwide</p>
+        </div>
+    </header>
+    
+    <nav>
+        <div class="container">
+            <button class="hamburger">☰</button>
+            <ul>
+                <li><a href="PTVDealer.html">Home</a></li>
+                <li><a href="about.html">About PTVs</a></li>
+                <li><a href="find-dealers.html">Find Dealers</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <main class="container">
+        <section class="page-header">
+            <h1>Contact Us</h1>
+            <p class="subtitle">Get in touch with our Medium Speed Vehicle specialists</p>
+        </section>
+        
+        <div class="contact-form">
+            <h2>Send Us a Message</h2>
+            <p>Fill out the form below and our Medium Speed Vehicle experts will get back to you as soon as possible.</p>
+            
+            <form id="contactForm" action="javascript:void(0);" onsubmit="submitForm()">
+                <div class="form-group">
+                    <label for="firstName">First Name*</label>
+                    <input type="text" id="firstName" name="firstName" class="form-control" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="lastName">Last Name*</label>
+                    <input type="text" id="lastName" name="lastName" class="form-control" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email Address*</label>
+                    <input type="email" id="email" name="email" class="form-control" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="phone">Phone Number*</label>
+                    <input type="tel" id="phone" name="phone" class="form-control" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Message*</label>
+                    <textarea id="message" name="message" class="form-control" required></textarea>
+                </div>
+                
+                <button type="submit" class="submit-btn">Send Message</button>
+                
+                <div id="formStatus" style="margin-top: 1rem;"></div>
+            </form>
+        </div>
+        
+        <div class="contact-info">
+            <h2>Other Ways to Reach Our PTV Dealership Network</h2>
+            
+            <div>
+                <h3>General Inquiries</h3>
+                <p>Email: info@msvdealer.com</p>
+                <p>Phone: 1-844-844-6638</p>
+            </div>
+            
+            <div style="margin-top: 2rem;">
+                <h3>Dealer Support</h3>
+                <p>Email: dealers@msvdealer.com</p>
+                <p>Phone: 1-844-844-6638</p>
+            </div>
+        </div>
+    </main>
+    
+    
+<section id="buying-guide">
+    <h2>PTV Buying Guide: Finding Your Perfect Personal Transportation Vehicle</h2>
+    <p>When shopping for a Personal Transportation Vehicle (PTV), it's important to consider your specific needs and usage patterns. PTVs offer an eco-friendly, cost-effective transportation solution for short-distance travel, with various models available to suit different lifestyles and requirements. Our authorized PTV dealers can help you navigate options including battery capacity, seating configuration, storage space, and additional features to ensure you find the perfect match for your transportation needs.</p>
+    
+    <h3>PTV Financing and Ownership Benefits</h3>
+    <p>Investing in a Personal Transportation Vehicle comes with numerous financial advantages. Many of our PTV dealers offer flexible financing options, warranty packages, and maintenance plans to make ownership hassle-free. PTVs typically have lower insurance costs, minimal maintenance requirements, and zero fuel expenses compared to traditional vehicles. Additionally, some locations offer tax incentives for eco-friendly transportation solutions, making a PTV purchase even more economical in the long run.</p>
+</section>
+
+<section id="ptv-advantages">
+    <h2>Why Choose a Personal Transportation Vehicle?</h2>
+    <p>Personal Transportation Vehicles represent the future of short-distance mobility. With rising fuel costs and growing environmental concerns, PTVs offer a practical alternative that reduces your carbon footprint while providing convenient transportation. These vehicles are perfect for planned communities, campuses, small towns, and neighborhoods, allowing easy access to local amenities without the hassle of traditional vehicles.</p>
+    
+    <h3>PTV Models and Customization Options</h3>
+    <p>Today's Personal Transportation Vehicles come in a variety of models with extensive customization options. From basic transportation models to luxury versions with premium features, there's a PTV to match every preference and budget. Many models offer customizable seating, storage solutions, weather protection packages, and technology integrations. Visit your local PTV dealer to explore the full range of available options and find the configuration that best suits your lifestyle needs.</p>
+</section>
+
+<footer>
+        <div class="container">
+            <p>&copy; 2025 PTVDealer.com - All Rights Reserved</p>
+        </div>
+    </footer>
+    
+    <script>
+        // Hamburger menu functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const hamburger = document.querySelector('.hamburger');
+            const nav = document.querySelector('nav');
+            
+            hamburger.addEventListener('click', function() {
+                nav.classList.toggle('active');
+            });
+        });
+        
+        function submitForm() {
+            // Get form values
+            const firstName = document.getElementById('firstName').value;
+            const lastName = document.getElementById('lastName').value;
+            const email = document.getElementById('email').value;
+            const phone = document.getElementById('phone').value;
+            const message = document.getElementById('message').value;
+            
+            // Display sending message
+            const formStatus = document.getElementById('formStatus');
+            formStatus.innerHTML = '<p style="color: var(--primary-light);">Sending your message...</p>';
+            
+            // In a real implementation, this would send data to a server
+            // For this static demo, we'll simulate a successful submission
+            setTimeout(() => {
+                // Clear form
+                document.getElementById('contactForm').reset();
+                
+                // Show success message
+                formStatus.innerHTML = '<p style="color: var(--primary-light);">Thank you! Your message has been sent to contact@tigongolfcarts.com with the subject: [PTVDEALER.COM WEBSITE]</p>';
+                
+                // Log the submission (in a real implementation, this would be sent to the server)
+                console.log({
+                    to: 'contact@tigongolfcarts.com',
+                    subject: '[PTVDEALER.COM WEBSITE]',
+                    body: `
+                        Name: ${firstName} ${lastName}
+                        Email: ${email}
+                        Phone: ${phone}
+                        Message: ${message}
+                    `
+                });
+            }, 1500);
+        }
+    </script>
+</body>
+</html>
